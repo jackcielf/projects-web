@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: .3s ease-in-out;
+}
+
+#container-fluid {
+    height: 100vh;
+    background: radial-gradient(circle, #7700F9, #6208AC, #4A0672, #22043A, #000000);
+}
+
+.container-verify {
+    width: 400px;
+    height: 350px;
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(5px);
+}
+
+#input_number {
+    background: transparent;
+    border-bottom: .5px solid rgba(255, 255, 255, .8);
+    outline: none;
+}
+
+#input_number::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+#verify {
+    width: 300px;
+    border: 2px solid rgba(6, 255, 0, 1);
+    color: red;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0 0 5px #C20703;
+    background: transparent;
+    color: #FF0601;
+}
+
+#verify:active {
+    border: 2px solid #FF0601;
+    color: rgba(6, 255, 0, 1);
+    text-shadow: 0 0 10px rgba(9, 139, 7, 1);
+}
+
+.grup h1 {
+    font-size: 1.2em;
+}
+
+.impar {
+    text-shadow: 2px 2px 1px red;
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+
+}
+
+.par {
+    text-shadow: 2px 2px 1px limegreen;
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.color_result {
+    width: 100px;
+    height: 50px;
+    background: dimgray;
+}
